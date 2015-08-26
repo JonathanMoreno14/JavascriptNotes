@@ -53,7 +53,7 @@ function describePerson(person) {
 ```
 
 
-##This fuction has an array as it's parameters
+##This function has an array as it's parameters
 This function loops through a given array 'nums' then searches each number and 'pushes' the odds and evens numbers into their respected arrays.
 
 ```javascript
