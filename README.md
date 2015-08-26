@@ -1,5 +1,5 @@
 # JavascriptNotes
-This repository are notes that consist of basic Javascript features. These features include the usage of conditional statements, loops, arrays, functions with parameters ranging from arrays to objects. These notes are a reference for Javascript. 
+This repository are notes that consist of basic Javascript features. These features include the usage of conditional statements, loops, arrays, functions with parameters ranging from arrays to objects. These notes are a reference for Javascript. Theres will be more items added.
 
 
 ##Basics
