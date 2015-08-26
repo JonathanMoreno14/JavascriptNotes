@@ -1,6 +1,26 @@
 # JavascriptNotes
-This repository are notes that consist of basic Javascript features. These features include the usage of conditional statements, loops, arrays, functions with parameters ranging from arrays to objects. These notes are a reference for the usage of Javascript. 
+This repository are notes that consist of basic Javascript features. These features include the usage of conditional statements, loops, arrays, functions with parameters ranging from arrays to objects. These notes are a reference for Javascript. 
 
+
+##Basics
+
+####Variables
+These variables contain several implications that consist of a string, number, boolean expression, and array. 
+```javascript
+var thisVariable = 'Hello World';
+var thisVariable = '14';
+var thisVariable = true;
+var thisVariable = [1, 14, 'Hello World', 'How are you doin?'] ;
+``` 
+####Commenting 
+```javascript
+/*
+Everything that is beteen the symbols is commented.
+*/
+
+// This is also comment
+
+``` 
 
 ## This is a function with an array as the parameter
 The function returns the sum of all the elements in an array. 
