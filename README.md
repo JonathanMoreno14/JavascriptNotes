@@ -60,6 +60,38 @@ Everything that is beteen the symbols is commented.
 
 ``` 
 
+####Operators
+
+```javascript
+
+//Arithmetic Opreators
+ +    //addition
+ *    //subtraction
+ /    //division
+ %    //modulus
+ ++    //increment
+ --   // deincrement
+ 
+ 
+ //String Operators
+ text1 = "Jonathan";
+ text2 = "Moreno";
+ text3 = text1 + " " + text2;
+ console.log(text3); //Jonathan Moreno
+ 
+ //Comparison and Logical Operators
+ ==
+ ===
+ !=
+ !==
+ >
+ <
+ >=
+ <=
+ 
+
+```
+
 
 
 ## This is a function with an array as the parameter
