@@ -72,7 +72,6 @@ Everything that is beteen the symbols is commented.
  ++    //increment
  --   // deincrement
  
- 
  //String Operators
  text1 = "Jonathan";
  text2 = "Moreno";
@@ -119,6 +118,38 @@ person.firstName + " "+person.lastName + " is "+ "a " + person.ocupation + ".";
 
 
 ```
+
+
+####typeof Operator
+```javascript
+
+typeof "john" + " " +       //String
+typeof 3.14 + " " +        //Number
+typeof false + " " +       //Boolean
+typeof [1,2,3,4] + " " +   //Object
+typeof {name:'john', age:34}; //Object
+
+
+```
+
+
+####Functions
+```javascript
+
+function addFunction(num1, num2) {
+    return num1 + num2;  // The function returns the sum of num1 and num2
+}
+
+addFunction(3 ,6)  //9
+
+
+console.log("The sum of both numbers is" + " "+ addFunction(5,5));
+//The sum of both numbers is 10
+
+
+
+```
+
 
 ## This is a function with an array as the parameter
 The function returns the sum of all the elements in an array. 
