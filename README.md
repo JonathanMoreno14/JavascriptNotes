@@ -93,6 +93,32 @@ Everything that is beteen the symbols is commented.
 ```
 
 
+####Data Types
+```javascript
+
+var length = 16;                               // Number
+var lastName = "Moreno";                      // String
+var cars = ["Eat", "Sleep", "Code"];           // Array
+var x = {firstName:"Jonathan", lastName:"Moreno"};    // Object
+
+```
+
+####Objects
+```javascript
+
+//Object properties
+var person = {
+    firstName : "Jonathan",
+    lastName  : "Moreno",
+    ocupation : "programmer",
+    eyeColor  : "brown"
+};
+
+person.firstName + " "+person.lastName + " is "+ "a " + person.ocupation + ".";
+//Jonathan Moreno is a programmer.
+
+
+```
 
 ## This is a function with an array as the parameter
 The function returns the sum of all the elements in an array. 
