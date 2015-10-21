@@ -4,6 +4,20 @@ This repository are notes that consist of basic Javascript features. These featu
 
 ##Basics
 
+####Strings
+```javascript
+"This is a string "  //This is a string in Javascript
+
+"It's okay";             // Single quote inside double quotes
+//It's okay
+"His name is 'John'";    // Single quotes inside double quotes
+//His name is 'John'
+'His name is "John"';    // Double quotes inside single quotes
+//His name is "Johnny"
+
+
+```
+
 ####Variables
 These variables contain several implications that consist of a string, number, boolean expression, and array. 
 ```javascript
@@ -12,6 +26,30 @@ var thisVariable = '14';
 var thisVariable = true;
 var thisVariable = [1, 14, 'Hello World', 'How are you doin?'] ;
 ``` 
+
+####Assigned Variables with Arithmetic Operators
+```javascript
+
+// This are assigned variables 
+var y = 5;
+var x = 5;
+console.log(x+y);  //10
+console.log(x-y);  //0
+console.log(x/y);  //1
+console.log(x*y);  //25
+
+var num1 = 5;
+var num2 = 6;
+var total = num1 + num2;  
+console.log(total);  //11
+var num1 = 5;
+var num2 = 6;
+var total = num1 * num2;
+console.log(total);  //30
+
+```
+
+
 ####Commenting 
 ```javascript
 /*
@@ -21,6 +59,8 @@ Everything that is beteen the symbols is commented.
 // This is also comment
 
 ``` 
+
+
 
 ## This is a function with an array as the parameter
 The function returns the sum of all the elements in an array. 
