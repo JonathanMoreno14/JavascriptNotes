@@ -16,6 +16,40 @@ This repository are notes that consist of basic Javascript features. These featu
 //His name is "Johnny"
 
 
+var alphaBet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lengthText = alphaBet.length;
+console.log(lengthText)
+
+//String Methods
+//There are several string methods one can use you can find the list of methods online. 
+var str = ["Hello", "World", "Eat", "Sleep", "Code", "Repeat"] ;
+var pos = str.indexOf("Code"); //4
+console.log(pos)
+
+str = "Eat, Sleep, Code, Repeat";
+var strRep = str.replace("Repeat","Again");
+console.log(strRep)  //Eat, Sleep, Code, Again
+
+var str = "Hello World!";       
+var str2 = str.toUpperCase(); 
+console.log(str2)  //Converts the string to Upper Case "HELLO WORLD!"
+
+var str = "Hello World!";       
+var str2 = str.toLowerCase(); 
+console.log(str2)  //Converts the string to lower case "hello world!"
+
+
+var str = "Programming Languages";
+str.charAt(6);   //CharAt returns a character in that position "m"
+
+var str = "Programming Languages";
+str.charCodeAt(6);   //charCodeAt returns the unicode of the position //returns 109
+
+var txt = "Programming Languages";       // String
+txt.split(" "); //[ 'Programming', 'Languages' ]
+
+
+
 ```
 
 ####Variables
@@ -48,6 +82,39 @@ var total = num1 * num2;
 console.log(total);  //30
 
 ```
+
+
+####Local/Global Variables
+
+
+```javascript
+
+//This is a local variable
+
+// cannot be used here
+
+function mycarFunction() {
+    var carName = "Tesla";
+
+    // can only be used here
+
+}
+
+
+//This is a Global variable
+var carName = " Tesla";
+
+// can be used here
+
+function mycarFunction() {
+
+    // can be used here
+
+}
+
+
+```
+
 
 
 ####Commenting 
