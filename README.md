@@ -92,12 +92,9 @@ console.log(total);  //30
 //This is a local variable
 
 // cannot be used here
-
 function mycarFunction() {
     var carName = "Tesla";
-
     // can only be used here
-
 }
 
 
@@ -105,13 +102,9 @@ function mycarFunction() {
 var carName = " Tesla";
 
 // can be used here
-
 function mycarFunction() {
-
     // can be used here
-
 }
-
 
 ```
 
